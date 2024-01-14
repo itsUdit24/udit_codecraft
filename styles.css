@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#blog-container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.blog-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.blog-body {
+  color: #555;
+}
+
+
+.blog-post {
+  border: 1px solid #007bff; /* Set the default border color to blue*/
+  margin-bottom: 20px;
+  padding: 15px;
+  transition: border-color 0.3s; /* Adding a smooth transition effect for the border color */
+}
+
+.blog-post:hover {
+  cursor: pointer;
+}
+
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text color */
+}
+#blog-container {
+  background-color: #fff; /* White background for the blog container */
+}
+a {
+  color: #007bff; /* Blue link color */
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
